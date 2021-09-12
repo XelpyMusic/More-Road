@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/texture",
+		"1": "More Road/texture",
 		"2": "1_danger/A1a",
-		"particle": "block/texture"
+		"particle": "More Road/texture"
 	},
 	"elements": [
 		{
@@ -732,6 +732,18 @@
 				"west": {"uv": [8.26667, 0.26667, 8.53333, 15.73333], "texture": "#1"},
 				"up": {"uv": [8.53333, 0.26667, 7.46667, 0.53333], "texture": "#1"},
 				"down": {"uv": [7.46667, 15.46667, 8.53333, 15.73333], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 8],
+			"to": [9, 0.5, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 0.5], "texture": "#1"},
+				"east": {"uv": [0, 0, 1, 0.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 0.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 0.5], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 1], "texture": "#1"}
 			}
 		}
 	],
