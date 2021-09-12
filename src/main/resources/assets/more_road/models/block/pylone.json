@@ -1,0 +1,9 @@
+{
+  "parent": "more_road:custom/pylone",
+  "textures": {
+    "all": "more_road:blocks/oak_log_top",
+    "particle": "more_road:blocks/oak_log_top",
+    "0": "more_road:blocks/oak_log",
+    "1": "more_road:blocks/oak_log_top"
+  }
+}
