@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "more_road:block/pylone"
+      "model": "more_road:block/cone"
     },
     "facing=east": {
-      "model": "more_road:block/pylone",
+      "model": "more_road:block/cone",
       "y": 90
     },
     "facing=south": {
-      "model": "more_road:block/pylone",
+      "model": "more_road:block/cone",
       "y": 180
     },
     "facing=west": {
-      "model": "more_road:block/pylone",
+      "model": "more_road:block/cone",
       "y": 270
     }
   }

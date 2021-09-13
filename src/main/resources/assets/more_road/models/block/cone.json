@@ -1,0 +1,9 @@
+{
+  "parent": "more_road:custom/cone",
+  "textures": {
+    "all": "more_road:blocks/textureorange",
+    "particle": "more_road:blocks/textureorange",
+    "0": "more_road:blocks/textureorange",
+    "1": "more_road:blocks/textureblanche"
+  }
+}

@@ -1,5 +1,8 @@
 {
   "block.more_road.poteau": "Poteau",
   "block.more_road.a_1a": "A1a",
-  "block.more_road.pylone": "Pylône"
+  "block.more_road.poteau_de_chantier": "Poteau de chantier",
+  "block.more_road.pylone": "Pylône",
+  "block.more_road.cone": "Cône",
+  "block.more_road.plot": "Plot"
 }

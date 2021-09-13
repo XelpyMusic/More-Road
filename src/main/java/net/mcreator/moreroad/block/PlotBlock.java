@@ -34,11 +34,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MoreRoadModElements.ModElement.Tag
-public class PyloneBlock extends MoreRoadModElements.ModElement {
-	@ObjectHolder("more_road:pylone")
+public class PlotBlock extends MoreRoadModElements.ModElement {
+	@ObjectHolder("more_road:plot")
 	public static final Block block = null;
-	public PyloneBlock(MoreRoadModElements instance) {
-		super(instance, 3);
+	public PlotBlock(MoreRoadModElements instance) {
+		super(instance, 5);
 	}
 
 	@Override
@@ -57,9 +57,9 @@ public class PyloneBlock extends MoreRoadModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("pylone");
+			setRegistryName("plot");
 		}
 
 		@Override

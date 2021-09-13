@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "textureorange",
+        "1": "textureblanche"
+      },
+      "name": "default"
+    }
+  }
+}
