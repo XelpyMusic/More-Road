@@ -34,11 +34,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MoreRoadModElements.ModElement.Tag
-public class PyloneBlock extends MoreRoadModElements.ModElement {
-	@ObjectHolder("more_road:pylone")
+public class SupportDesFilsElectriquesBlock extends MoreRoadModElements.ModElement {
+	@ObjectHolder("more_road:support_des_cables_electriques")
 	public static final Block block = null;
-	public PyloneBlock(MoreRoadModElements instance) {
-		super(instance, 3);
+	public SupportDesFilsElectriquesBlock(MoreRoadModElements instance) {
+		super(instance, 4);
 	}
 
 	@Override
@@ -58,7 +58,7 @@ public class PyloneBlock extends MoreRoadModElements.ModElement {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("pylone");
+			setRegistryName("support_des_cables_electriques");
 		}
 
 		@Override

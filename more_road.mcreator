@@ -31,7 +31,7 @@
     {
       "name": "Cone",
       "type": "block",
-      "sortid": 4,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "Plot",
       "type": "block",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,11 +49,47 @@
     {
       "name": "PoteauDeChantier",
       "type": "block",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "poteau_de_chantier"
+    },
+    {
+      "name": "SupportDesFilsElectriques",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "support_des_cables_electriques"
+    },
+    {
+      "name": "CablesElectriques",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cables_electriques"
+    },
+    {
+      "name": "PassagePietons",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "passage_pietons"
+    },
+    {
+      "name": "MoreRoad",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "more_road"
     }
   ],
   "variable_elements": [],
@@ -62,10 +98,14 @@
     "en_us": {
       "block.more_road.poteau": "Poteau",
       "block.more_road.a_1a": "A1a",
+      "block.more_road.passage_pietons": "Passage piétons",
+      "block.more_road.support_des_cables_electriques": "Support des câbles électriques",
       "block.more_road.poteau_de_chantier": "Poteau de chantier",
+      "itemGroup.tabmore_road": "More Road",
       "block.more_road.pylone": "Pylône",
       "block.more_road.cone": "Cône",
-      "block.more_road.plot": "Plot"
+      "block.more_road.plot": "Plot",
+      "block.more_road.cables_electriques": "Câbles électriques"
     }
   },
   "foldersRoot": {

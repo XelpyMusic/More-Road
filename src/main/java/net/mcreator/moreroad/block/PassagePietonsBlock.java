@@ -3,11 +3,14 @@ package net.mcreator.moreroad.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -34,11 +37,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MoreRoadModElements.ModElement.Tag
-public class PyloneBlock extends MoreRoadModElements.ModElement {
-	@ObjectHolder("more_road:pylone")
+public class PassagePietonsBlock extends MoreRoadModElements.ModElement {
+	@ObjectHolder("more_road:passage_pietons")
 	public static final Block block = null;
-	public PyloneBlock(MoreRoadModElements instance) {
-		super(instance, 3);
+	public PassagePietonsBlock(MoreRoadModElements instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -55,10 +58,10 @@ public class PyloneBlock extends MoreRoadModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("pylone");
+			setRegistryName("passage_pietons");
 		}
 
 		@Override
@@ -69,6 +72,22 @@ public class PyloneBlock extends MoreRoadModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.or(makeCuboidShape(16, 0, 16, 0, 0.1, 0)).withOffset(offset.x, offset.y, offset.z);
+				case NORTH :
+					return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 0.1, 16)).withOffset(offset.x, offset.y, offset.z);
+				case EAST :
+					return VoxelShapes.or(makeCuboidShape(16, 0, 0, 0, 0.1, 16)).withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 0.1, 0)).withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override

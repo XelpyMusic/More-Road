@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "more_road:block/passage_pietons"
+    },
+    "facing=east": {
+      "model": "more_road:block/passage_pietons",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "more_road:block/passage_pietons",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "more_road:block/passage_pietons",
+      "y": 270
+    }
+  }
+}

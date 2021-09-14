@@ -1,0 +1,13 @@
+{
+  "parent": "more_road:custom/support_des_fils_electriques",
+  "textures": {
+    "all": "more_road:blocks/oak_log_top",
+    "particle": "more_road:blocks/oak_log_top",
+    "0": "more_road:blocks/oak_log",
+    "1": "more_road:blocks/oak_log_top",
+    "2": "more_road:blocks/oak_planks",
+    "3": "more_road:blocks/gray_concrete",
+    "4": "more_road:blocks/light_gray_concrete",
+    "5": "more_road:blocks/black_concrete"
+  }
+}
