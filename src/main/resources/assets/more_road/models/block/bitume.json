@@ -1,0 +1,8 @@
+{
+  "parent": "more_road:custom/bitume",
+  "textures": {
+    "all": "more_road:blocks/bitume",
+    "particle": "more_road:blocks/bitume",
+    "0": "more_road:blocks/bitume"
+  }
+}

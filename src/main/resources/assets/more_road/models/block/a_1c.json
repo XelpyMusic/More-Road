@@ -1,0 +1,9 @@
+{
+  "parent": "more_road:custom/a1c",
+  "textures": {
+    "all": "more_road:blocks/a1c",
+    "particle": "more_road:blocks/a1c",
+    "1": "more_road:blocks/texture",
+    "2": "more_road:blocks/a1c"
+  }
+}

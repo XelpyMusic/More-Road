@@ -1,0 +1,8 @@
+{
+  "parent": "more_road:custom/ligne_continue",
+  "textures": {
+    "all": "more_road:blocks/textureblanche",
+    "particle": "more_road:blocks/textureblanche",
+    "0": "more_road:blocks/textureblanche"
+  }
+}

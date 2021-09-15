@@ -1,0 +1,9 @@
+{
+  "parent": "more_road:custom/lampadaire",
+  "textures": {
+    "all": "more_road:blocks/texture",
+    "particle": "more_road:blocks/texture",
+    "0": "more_road:blocks/texture",
+    "1": "more_road:blocks/glowstone"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "more_road:custom/feu_tricolore",
+  "textures": {
+    "all": "more_road:blocks/texture",
+    "particle": "more_road:blocks/texture",
+    "0": "more_road:blocks/texture",
+    "1": "more_road:blocks/lime_concrete",
+    "2": "more_road:blocks/textureorange",
+    "3": "more_road:blocks/red_concrete"
+  }
+}

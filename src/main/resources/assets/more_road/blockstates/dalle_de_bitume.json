@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "more_road:block/dalle_de_bitume"
+    },
+    "facing=east": {
+      "model": "more_road:block/dalle_de_bitume",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "more_road:block/dalle_de_bitume",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "more_road:block/dalle_de_bitume",
+      "y": 270
+    }
+  }
+}

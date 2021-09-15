@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "more_road:block/ligne_continue"
+    },
+    "facing=east": {
+      "model": "more_road:block/ligne_continue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "more_road:block/ligne_continue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "more_road:block/ligne_continue",
+      "y": 270
+    }
+  }
+}

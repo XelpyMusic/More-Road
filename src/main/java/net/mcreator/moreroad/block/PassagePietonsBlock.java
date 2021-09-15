@@ -41,7 +41,7 @@ public class PassagePietonsBlock extends MoreRoadModElements.ModElement {
 	@ObjectHolder("more_road:passage_pietons")
 	public static final Block block = null;
 	public PassagePietonsBlock(MoreRoadModElements instance) {
-		super(instance, 9);
+		super(instance, 13);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import net.mcreator.moreroad.MoreRoadModElements;
 @MoreRoadModElements.ModElement.Tag
 public class MoreRoadItemGroup extends MoreRoadModElements.ModElement {
 	public MoreRoadItemGroup(MoreRoadModElements instance) {
-		super(instance, 10);
+		super(instance, 22);
 	}
 
 	@Override

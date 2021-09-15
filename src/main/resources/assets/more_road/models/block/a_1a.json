@@ -4,7 +4,6 @@
     "all": "more_road:blocks/a1a",
     "particle": "more_road:blocks/a1a",
     "1": "more_road:blocks/texture",
-    "2": "more_road:blocks/a1a",
-    "missing": "more_road:blocks/"
+    "2": "more_road:blocks/a1a"
   }
 }
