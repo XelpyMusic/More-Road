@@ -234,6 +234,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "a_1d"
+    },
+    {
+      "name": "A2a",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_2a"
+    },
+    {
+      "name": "A2b",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_2b"
+    },
+    {
+      "name": "A3",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_3"
     }
   ],
   "variable_elements": [],
@@ -241,8 +268,10 @@
   "language_map": {
     "en_us": {
       "block.more_road.poteau": "Poteau",
-      "block.more_road.ligne_de_rive": "Ligne de rive",
+      "block.more_road.a_2a": "A2a",
+      "block.more_road.a_2b": "A2b",
       "itemGroup.tabmore_road": "More Road",
+      "block.more_road.ligne_de_rive": "Ligne de rive",
       "block.more_road.dalle_de_bitume": "Dalle De Bitume",
       "block.more_road.fleche": "Flèche",
       "block.more_road.lampadaire": "Lampadaire",
@@ -259,6 +288,7 @@
       "block.more_road.ligne_de_dissuasion": "Ligne de dissuasion",
       "block.more_road.feu_tricolore": "Feu tricolore",
       "block.more_road.ligne_de_rive_continue": "Ligne de rive continue",
+      "block.more_road.a_3": "A3",
       "block.more_road.passage_pietons": "Passage piétons",
       "block.more_road.ab_3a": "AB3a",
       "block.more_road.pylone": "Pylône",
