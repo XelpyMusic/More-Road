@@ -225,6 +225,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ab_3a"
+    },
+    {
+      "name": "A1d",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_1d"
     }
   ],
   "variable_elements": [],
@@ -232,8 +241,8 @@
   "language_map": {
     "en_us": {
       "block.more_road.poteau": "Poteau",
-      "itemGroup.tabmore_road": "More Road",
       "block.more_road.ligne_de_rive": "Ligne de rive",
+      "itemGroup.tabmore_road": "More Road",
       "block.more_road.dalle_de_bitume": "Dalle De Bitume",
       "block.more_road.fleche": "Flèche",
       "block.more_road.lampadaire": "Lampadaire",
@@ -244,6 +253,7 @@
       "block.more_road.poteau_de_chantier": "Poteau de chantier",
       "block.more_road.a_1b": "A1b",
       "block.more_road.a_1c": "A1c",
+      "block.more_road.a_1d": "A1d",
       "block.more_road.ligne_continue": "Ligne continue",
       "block.more_road.a_1a": "A1a",
       "block.more_road.ligne_de_dissuasion": "Ligne de dissuasion",
