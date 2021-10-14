@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "texture",
+        "2": "a4"
+      },
+      "name": "default"
+    }
+  }
+}
